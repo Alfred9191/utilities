@@ -1,0 +1,9 @@
+// snippet: -*- go -*-
+// snippet: Note: this will skip blank lines.
+// snippet: Note:
+// snippet: Note: It only makes sense to use this snippet in
+// snippet: Note: the exec section and only when you are running
+// snippet: Note: gosh in a readloop
+if _l.Text() == "" {
+	continue
+}
